@@ -29,8 +29,8 @@ body{cursor:crosshair;-webkit-font-smoothing:antialiased;background:#f5f0e8;colo
 .nav-links a:hover{color:#f5f0e8;background:#0d0d0d}
 .nav-cta{padding:16px 32px;background:#4252ff;color:#f5f0e8;font-family:'Courier Prime',monospace;font-size:12px;text-transform:uppercase;letter-spacing:.1em;text-decoration:none;display:flex;align-items:center;transition:background .15s}
 .nav-cta:hover{background:#0d0d0d}
-.marquee-bar{overflow:hidden;padding:4px 0;background:#0d0d0d;color:#f5f0e8}
-.marquee-bar .fm{font-size:12px;letter-spacing:.15em;text-transform:uppercase}
+.marquee-bar{overflow:hidden;padding:2px 0;background:#0d0d0d;color:#f5f0e8}
+.marquee-bar .fm{font-size:10px;letter-spacing:.15em;text-transform:uppercase}
 .hero-sec{display:grid;grid-template-columns:1fr;min-height:40vh}
 @media(min-width:768px){.hero-sec{grid-template-columns:1fr auto}}
 .hero-left{display:flex;flex-direction:column;justify-content:space-between;padding:32px}
@@ -66,8 +66,8 @@ body{cursor:crosshair;-webkit-font-smoothing:antialiased;background:#f5f0e8;colo
 @media(min-width:768px){.cta-left{padding:56px}}
 .cta-h{font-family:'Abril Fatface',serif;font-size:clamp(1.5rem,3vw,2.5rem);line-height:1.1;margin-bottom:16px}
 .cta-p{font-size:18px;font-weight:300;opacity:.8;line-height:1.6}
-.cta-right{background:#0d0d0d;color:#f5f0e8;padding:40px;display:flex;flex-direction:column;justify-content:center}
-@media(min-width:768px){.cta-right{padding:56px}}
+.cta-right{background:#0d0d0d;color:#f5f0e8;padding:32px;display:flex;flex-direction:column;justify-content:center}
+@media(min-width:768px){.cta-right{padding:40px}}
 .cta-btn{display:inline-block;align-self:flex-start;border:1px solid #f5f0e8;color:#f5f0e8;padding:16px 32px;font-family:'Courier Prime',monospace;font-size:14px;text-transform:uppercase;letter-spacing:.1em;text-decoration:none;transition:all .12s}
 .cta-btn:hover{background:#4252ff;border-color:#4252ff}
 .footer{display:flex;flex-direction:column;align-items:stretch;justify-content:space-between}
@@ -123,7 +123,7 @@ body{cursor:crosshair;-webkit-font-smoothing:antialiased;background:#f5f0e8;colo
   .nav-cta { padding: 12px 16px !important; font-size: 10px !important; }
   
   /* Marquee */
-  .marquee-anim { font-size: 10px !important; }
+  .marquee-anim { font-size: 9px !important; }
   
   /* TOC items */
   .toc-item { padding: 14px 20px !important; }
