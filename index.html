@@ -25,9 +25,9 @@ body{background:#f5f0e8}
   }
   
   /* Remove right borders on mobile (they're dividers for side-by-side) */
-  section [style*="border-right:3px solid #0d0d0d"] {
+  section [style*="border-right:1px solid #0d0d0d"] {
     border-right: none !important;
-    border-bottom: 3px solid #0d0d0d !important;
+    border-bottom: 1px solid #0d0d0d !important;
   }
   
   /* Hero: reduce padding */
@@ -80,7 +80,7 @@ body{background:#f5f0e8}
   
   /* Footer: stack */
   .footer { flex-direction: column !important; }
-  .footer-brand { border-right: none !important; border-bottom: 3px solid #0d0d0d !important; }
+  .footer-brand { border-right: none !important; border-bottom: 1px solid #0d0d0d !important; }
   .footer-links { flex-wrap: wrap; }
   .footer-links a { padding: 16px !important; font-size: 11px !important; }
   
@@ -206,15 +206,15 @@ body{background:#f5f0e8}
 
 <!-- METRICS -->
 <section class="tbb" style="display:grid;grid-template-columns:repeat(2,1fr)">
-  <div style="padding:48px 32px;text-align:center;border-right:3px solid #0d0d0d"><div class="fd metric-num" style="line-height:1">100<span style="color:#4252ff">+</span></div><div class="fm" style="font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#999;margin-top:12px">total repositories</div></div>
+  <div style="padding:48px 32px;text-align:center;border-right:1px solid #0d0d0d"><div class="fd metric-num" style="line-height:1">100<span style="color:#4252ff">+</span></div><div class="fm" style="font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#999;margin-top:12px">total repositories</div></div>
   <div style="padding:48px 32px;text-align:center"><div class="fd metric-num" style="line-height:1">21<span style="color:#4252ff">pub</span></div><div class="fm" style="font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#999;margin-top:12px">open-source on GitHub</div></div>
-  <div style="padding:48px 32px;text-align:center;border-right:3px solid #0d0d0d;border-top:3px solid #0d0d0d"><div class="fd metric-num" style="line-height:1">7<span style="color:#4252ff">live</span></div><div class="fm" style="font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#999;margin-top:12px">sites in production</div></div>
-  <div style="padding:48px 32px;text-align:center;border-top:3px solid #0d0d0d"><div class="fd metric-num" style="line-height:1">0<span style="color:#4252ff">debt</span></div><div class="fm" style="font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#999;margin-top:12px">venture debt</div></div>
+  <div style="padding:48px 32px;text-align:center;border-right:1px solid #0d0d0d;border-top:1px solid #0d0d0d"><div class="fd metric-num" style="line-height:1">7<span style="color:#4252ff">live</span></div><div class="fm" style="font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#999;margin-top:12px">sites in production</div></div>
+  <div style="padding:48px 32px;text-align:center;border-top:1px solid #0d0d0d"><div class="fd metric-num" style="line-height:1">0<span style="color:#4252ff">debt</span></div><div class="fm" style="font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#999;margin-top:12px">venture debt</div></div>
 </section>
 
 <!-- SITES -->
 <section class="tbb" id="sites" style="display:grid;grid-template-columns:14rem 1fr">
-  <div style="border-right:3px solid #0d0d0d;padding:40px;display:flex;flex-direction:column;justify-content:space-between">
+  <div style="border-right:1px solid #0d0d0d;padding:40px;display:flex;flex-direction:column;justify-content:space-between">
     <div class="tag" style="margin-bottom:24px">Live sites</div>
     <p class="fd" style="font-size:24px;line-height:1.1">Seven sites<br>in production.</p>
     <div class="fm" style="font-size:12px;color:#999;margin-top:32px">pg. 002 — SITES</div>
@@ -232,25 +232,25 @@ body{background:#f5f0e8}
 
 <!-- REPOS -->
 <section class="tbb" id="work" style="display:grid;grid-template-columns:14rem 1fr">
-  <div style="border-right:3px solid #0d0d0d;padding:40px;display:flex;flex-direction:column;justify-content:space-between">
+  <div style="border-right:1px solid #0d0d0d;padding:40px;display:flex;flex-direction:column;justify-content:space-between">
     <div class="tag" style="margin-bottom:24px">Open source</div>
     <p class="fd" style="font-size:24px;line-height:1.1">21 public repos.<br>All on GitHub.</p>
     <div class="fm" style="font-size:12px;color:#999;margin-top:32px">pg. 003 — REPOS</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr">
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:3px solid #0d0d0d;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">01</span><span style="font-weight:600">OpenSAM — Federal contract intelligence</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">02</span><span style="font-weight:600">universal-trust-adapter — ATC/1.0, Ed25519</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:3px solid #0d0d0d;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">03</span><span style="font-weight:600">mcp-vault-server — AES-256-GCM</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">04</span><span style="font-weight:600">govcon-scoring — NAICS matching</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:3px solid #0d0d0d;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">05</span><span style="font-weight:600">samgov-sdk — SAM.gov TypeScript SDK</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">06</span><span style="font-weight:600">LegalIA — AI legal assistants LatAm</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:3px solid #0d0d0d;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">07</span><span style="font-weight:600">ecuadorian-legal-codes — JSON</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">08</span><span style="font-weight:600">CodeAuditor — Security scanner</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:3px solid #0d0d0d;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">09</span><span style="font-weight:600">burp-quicknotes — Burp Suite templates</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">10</span><span style="font-weight:600">vigia-ml — Gas well ML monitoring</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:3px solid #0d0d0d;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">11</span><span style="font-weight:600">Scraper — AI product research</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">12</span><span style="font-weight:600">supabase-rls-templates — RLS</span></div>
-    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:3px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">13</span><span style="font-weight:600">autotaxflow — SRI tax workflow</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:1px solid #0d0d0d;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">01</span><span style="font-weight:600">OpenSAM — Federal contract intelligence</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">02</span><span style="font-weight:600">universal-trust-adapter — ATC/1.0, Ed25519</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:1px solid #0d0d0d;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">03</span><span style="font-weight:600">mcp-vault-server — AES-256-GCM</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">04</span><span style="font-weight:600">govcon-scoring — NAICS matching</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:1px solid #0d0d0d;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">05</span><span style="font-weight:600">samgov-sdk — SAM.gov TypeScript SDK</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">06</span><span style="font-weight:600">LegalIA — AI legal assistants LatAm</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:1px solid #0d0d0d;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">07</span><span style="font-weight:600">ecuadorian-legal-codes — JSON</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">08</span><span style="font-weight:600">CodeAuditor — Security scanner</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:1px solid #0d0d0d;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">09</span><span style="font-weight:600">burp-quicknotes — Burp Suite templates</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">10</span><span style="font-weight:600">vigia-ml — Gas well ML monitoring</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:1px solid #0d0d0d;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">11</span><span style="font-weight:600">Scraper — AI product research</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-bottom:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">12</span><span style="font-weight:600">supabase-rls-templates — RLS</span></div>
+    <div style="padding:32px;display:flex;align-items:center;gap:16px;border-right:1px solid #0d0d0d" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">13</span><span style="font-weight:600">autotaxflow — SRI tax workflow</span></div>
     <div style="padding:32px;display:flex;align-items:center;gap:16px" class="hi"><span class="fm" style="font-size:12px;color:#4252ff">14</span><span style="font-weight:600">sam-gov-types — TS types</span></div>
   </div>
 </section>
