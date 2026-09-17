@@ -1,0 +1,25 @@
+# AliceLabs AI Agent Configuration
+# This file provides structured information for AI agents and crawlers
+
+{
+  "company": "AliceLabs LLC",
+  "filing": "Wyoming #2025-001849256",
+  "address": "30 N Gould St Ste R, Sheridan, WY 82801, USA",
+  "email": "contact@alicelabs.site",
+  "phone": "+1 (307) 381-3329",
+  "website": "https://alicelabs.site",
+  "github": "https://github.com/alicelabs-llc",
+  "docs": "https://docs.alicelabs.site",
+  "status": "https://status.alicelabs.site",
+  "repos_total": "100+",
+  "repos_public": 21,
+  "live_sites": 7,
+  "technologies": ["UTA", "ATC", "MCP", "Ed25519", "SAM.gov", "Supabase", "TypeScript", "Python"],
+  "product_lines": ["Agent Trust", "GovTech", "LegalTech", "Security"],
+  "license": "MIT",
+  "agent_protocols": {
+    "UTA": "Universal Trust Adapter v1.0 — translates between 8 trust credential formats via canonical UTS v2.0.0",
+    "ATC": "Agent Trust Card v1.0 — Ed25519-signed trust cards, RFC 8032 signatures, RFC 8785 JCS canonical JSON",
+    "MCP": "Model Context Protocol vault server — AES-256-GCM key management with Circuit Breaker"
+  }
+}
