@@ -31,15 +31,15 @@ body{cursor:crosshair;-webkit-font-smoothing:antialiased;background:#f5f0e8;colo
 .nav-cta:hover{background:#0d0d0d}
 .marquee-bar{overflow:hidden;padding:2px 0;background:#0d0d0d;color:#f5f0e8}
 .marquee-bar .fm{font-size:10px;letter-spacing:.15em;text-transform:uppercase}
-.hero-sec{display:grid;grid-template-columns:1fr;min-height:40vh}
+.hero-sec{display:grid;grid-template-columns:1fr;min-height:calc(100vh - 80px)}
 @media(min-width:768px){.hero-sec{grid-template-columns:1fr auto}}
 .hero-left{display:flex;flex-direction:column;justify-content:space-between;padding:32px}
-@media(min-width:768px){.hero-left{padding:56px}}
+@media(min-width:768px){.hero-left{padding:80px}}
 .hero-right{display:none;flex-direction:column;align-items:center;justify-content:space-between;padding:56px 40px;width:192px;gap:40px}
 @media(min-width:768px){.hero-right{display:flex}}
-.hero-h1{font-family:'Abril Fatface',serif;font-size:clamp(2rem,5vw,3.5rem);line-height:.9;letter-spacing:-.025em;margin-bottom:24px}
-.hero-intro{font-size:16px;font-weight:300;line-height:1.6;color:#333;max-width:512px;margin-bottom:24px}
-.hero-meta{margin-top:48px;font-family:'Courier Prime',monospace;font-size:12px;color:#999;display:flex;gap:24px}
+.hero-h1{font-family:'Abril Fatface',serif;font-size:clamp(2.5rem,7vw,5.5rem);line-height:.95;letter-spacing:-.025em;margin-bottom:32px}
+.hero-intro{font-size:18px;font-weight:300;line-height:1.6;color:#333;max-width:560px;margin-bottom:32px}
+.hero-meta{margin-top:64px;font-family:'Courier Prime',monospace;font-size:12px;color:#999;display:flex;gap:24px}
 .toc-sec{display:grid;grid-template-columns:1fr}
 @media(min-width:768px){.toc-sec{grid-template-columns:14rem 1fr}}
 .toc-left{padding:32px}
@@ -94,8 +94,8 @@ body{cursor:crosshair;-webkit-font-smoothing:antialiased;background:#f5f0e8;colo
   
   /* Hero */
   .hero-left { padding: 24px !important; }
-  .hero-h1 { font-size: clamp(2rem, 8vw, 3rem) !important; }
-  .hero-intro { font-size: 15px !important; }
+  .hero-h1 { font-size: clamp(2rem, 9vw, 3.5rem) !important; }
+  .hero-intro { font-size: 16px !important; }
   .hero-right { display: none !important; }
   .hero-meta { flex-wrap: wrap; gap: 8px !important; font-size: 10px !important; }
   
