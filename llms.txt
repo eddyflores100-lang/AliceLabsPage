@@ -1,0 +1,39 @@
+# AliceLabs LLC
+
+> Open-source infrastructure for AI agent trust, GovTech, legal AI, and security research. Wyoming-based. 100+ repositories, 21 public, 7 live sites.
+
+## About
+AliceLabs LLC is a Wyoming-filed company (Filing #2025-001849256) based at 30 N Gould St Ste R, Sheridan, WY 82801. We build open-source infrastructure for AI agents, government APIs, legal tech, and security research.
+
+## Core Technologies
+- UTA (Universal Trust Adapter) v1.0 — translates between 8 trust credential formats
+- ATC (Agent Trust Card) v1.0 — Ed25519-signed trust cards for AI agents
+- MCP Vault Server — zero-trust key management for AI agents
+- SAM.gov SDK — TypeScript SDK for federal contracting API
+- Agent Trust Pipeline — verifiable reputation and credential layer
+
+## Live Sites
+- OpenSAM: https://opensam.us — Federal contract intelligence
+- MarketNow: https://marketnow.site — Trust infrastructure for AI agents
+- AliceLabs.Energy: https://alicelabs.energy — Energy platform
+- SG-Turismo: https://sg-turismo.com — Tourism platform
+- Equastore: https://equastore.com — Wellness store
+- Angry Cactus: https://angrycactus.site — Lifestyle brand
+- FloraNova: https://floranova.life — Botanical care
+
+## Open Source
+- GitHub: https://github.com/alicelabs-llc
+- 21 public repositories (TypeScript, Python, PLpgSQL)
+- MIT licensed
+
+## Contact
+- Email: contact@alicelabs.site
+- Phone: +1 (307) 381-3329
+- Address: 30 N Gould St Ste R, Sheridan, WY 82801, USA
+
+## Documentation
+- API Docs: https://docs.alicelabs.site
+- UTA Spec: https://github.com/alicelabs-llc/universal-trust-adapter
+- ATC Spec: https://github.com/alicelabs-llc/universal-trust-adapter
+- MCP Vault: https://github.com/alicelabs-llc/mcp-vault-server
+- SAM.gov SDK: https://github.com/alicelabs-llc/samgov-sdk

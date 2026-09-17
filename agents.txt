@@ -1,0 +1,36 @@
+# AliceLabs Agent Discovery
+# AI agents can use these endpoints:
+
+# Trust Verification
+POST /api/verify-trust
+Verify an Agent Trust Card (ATC) signature
+
+# Trust Card Creation
+POST /api/create-trust-card
+Create a new Ed25519-signed trust card
+
+# SAM.gov Opportunities
+GET /api/opportunities
+Search federal contracting opportunities
+
+# Repository Status
+GET /api/repos
+List public repositories and their status
+
+# System Health
+GET /api/health
+Check system operational status
+
+# MCP Vault
+POST /api/vault/store
+Store encrypted keys with AES-256-GCM
+
+# Documentation
+GET /llms.txt
+LLM-friendly site summary
+
+GET /ai.txt
+Structured company data for AI agents
+
+GET /sitemap.xml
+Complete site map
