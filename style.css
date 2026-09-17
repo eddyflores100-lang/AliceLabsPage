@@ -31,7 +31,9 @@ body{cursor:crosshair;-webkit-font-smoothing:antialiased;background:#f5f0e8;colo
 .nav-cta:hover{background:#0d0d0d}
 .marquee-bar{overflow:hidden;padding:2px 0;background:#0d0d0d;color:#f5f0e8}
 .marquee-bar .fm{font-size:10px;letter-spacing:.15em;text-transform:uppercase}
-.hero-sec{display:grid;grid-template-columns:1fr;min-height:55vh}
+.above-fold{display:flex;flex-direction:column;min-height:100vh;min-height:100svh}
+.above-fold .hero-sec{flex:1;min-height:0}
+.hero-sec{display:grid;grid-template-columns:1fr;flex:1;min-height:0}
 @media(min-width:768px){.hero-sec{grid-template-columns:1fr auto}}
 .hero-left{display:flex;flex-direction:column;justify-content:space-between;padding:32px}
 @media(min-width:768px){.hero-left{padding:80px}}
