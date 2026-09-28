@@ -1,0 +1,11 @@
+{
+  "name": "AliceLabs",
+  "short_name": "AliceLabs",
+  "icons": [
+    { "src": "/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/favicon-180.png", "sizes": "180x180", "type": "image/png" }
+  ],
+  "theme_color": "#4252ff",
+  "background_color": "#f5f0e8",
+  "display": "standalone"
+}
