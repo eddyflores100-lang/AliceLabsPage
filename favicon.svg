@@ -1,5 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" fill="#f5f0e8"/>
-  <polygon points="32,8 8,56 56,56" fill="#4252ff"/>
-  <text x="32" y="50" font-family="Georgia, serif" font-size="34" font-weight="900" fill="#f5f0e8" text-anchor="middle">A</text>
+  <!-- Solid blue background - max contrast for small sizes -->
+  <rect width="64" height="64" fill="#4252ff"/>
+  <!-- Bold A using thick strokes - legs and crossbar -->
+  <g stroke="#f5f0e8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <line x1="32" y1="10" x2="12" y2="56"/>
+    <line x1="32" y1="10" x2="52" y2="56"/>
+    <line x1="20" y1="42" x2="44" y2="42"/>
+  </g>
 </svg>

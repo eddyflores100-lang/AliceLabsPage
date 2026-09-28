@@ -1,11 +1,16 @@
 {
   "name": "AliceLabs",
   "short_name": "AliceLabs",
+  "description": "Open-source engineering for regulated industries.",
   "icons": [
+    { "src": "/favicon-16.png", "sizes": "16x16", "type": "image/png" },
     { "src": "/favicon-32.png", "sizes": "32x32", "type": "image/png" },
-    { "src": "/favicon-180.png", "sizes": "180x180", "type": "image/png" }
+    { "src": "/favicon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/favicon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
   "theme_color": "#4252ff",
   "background_color": "#f5f0e8",
-  "display": "standalone"
+  "display": "standalone",
+  "start_url": "/"
 }
