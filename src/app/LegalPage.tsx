@@ -29,12 +29,17 @@ interface LegalPageProps {
   es: LegalTranslations
 }
 
-export default function LegalPage({ en, es }: LegalPageProps) {
+type LegacyProps = {title:string;tag:string;pgNum:string;intro?:string;sections:LegalSection[]};
+export default function LegalPage(props: LegalPageProps | LegacyProps) {
+  const legacy = 'title' in props ? { ...props, intro:props.intro||'', ctaTitle:'Talk to AliceLabs', ctaSub:'Tell us about your project.', ctaBtn:'Contact', backHome:'Back home', tocLabel:'Contents', tocTitle1:'On this', tocTitle2:'page', contentsWord:'Contents', sectionsWord:'Sections' } : null;
+  const en = 'en' in props ? props.en : legacy!;
+  const es = 'es' in props ? props.es : legacy!;
   const [lang, setLang] = useState<'en' | 'es'>('en')
 
   useEffect(() => {
     const saved = localStorage.getItem('al-lang') as 'en' | 'es' | null
-    if (saved) setLang(saved)
+    if (saved === 'en' || saved === 'es') { setLang(saved); document.documentElement.lang=saved; }
+    else document.documentElement.lang='en'
   }, [])
 
   const switchLang = (l: 'en' | 'es') => {
@@ -100,8 +105,8 @@ export default function LegalPage({ en, es }: LegalPageProps) {
       <div className="thick-border-b overflow-hidden py-2 bg-[#0d0d0d] text-[#f5f0e8]">
         <div className="font-mono text-xs tracking-widest marquee-anim">
           {(lang === 'en'
-            ? 'OPEN SOURCE · AI AGENT TRUST · GOVTECH · LEGALTECH · SECURITY · 21 PUBLIC REPOS · 100+ TOTAL · 7 LIVE SITES · WYOMING LLC · BUILDING IN THE OPEN · '
-            : 'OPEN SOURCE · CONFIANZA IA · GOVTECH · LEGALTECH · SEGURIDAD · 21 REPOS PÚBLICOS · 100+ TOTAL · 7 SITIOS · LLC WYOMING · CONSTRUYENDO EN ABIERTO · '
+            ? 'ALICELABS · OPEN SOURCE · DESARROLLO WEB · AUTOMATIZACIÓN · '
+            : 'ALICELABS · OPEN SOURCE · DESARROLLO WEB · AUTOMATIZACIÓN · '
           ).repeat(4)}
         </div>
       </div>

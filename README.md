@@ -1,35 +1,32 @@
-# AliceLabsPage
+# AliceLabs commercial website
 
-Official website for AliceLabs LLC — Open-source infrastructure for AI agent trust, GovTech, legal AI, and security research.
+Spanish/English services site built with Next.js and TypeScript. The homepage is rendered directly, with three service offers, deliverables, process, FAQ and a project brief form.
+
+## Run and verify
+
+```sh
+npm ci
+npm run dev
+npm run build
+npm run typecheck
+```
+
+The build exports the complete static site to `out/`. Preview with `python3 -m http.server 3000 --directory out`. Publish **the contents of out/** at the root of the configured custom domain; the repository root and historical `alicelabs.html` are not deployable entry points. `next start` is not used for a static export.
+
+CI builds and uploads the static site artifact. It does not change the production host. Configure the existing host to use this build output before switching traffic. The configured metadata domain is `https://www.alicelabs.site`.
+
+## Inquiry flow
+
+Visitors select a service, describe their goal and provide indicative budget and timing. The form generates a visible summary and an encoded `mailto:` link. **Preparing the summary does not send or store a lead.** The visitor must send through their email app or copy the summary and email `contact@alicelabs.site`. No credentials or backend are required. The email inbox's deliverability must be verified separately.
+
+No advertising scripts or analytics are loaded by the new homepage. Only the language preference is stored in localStorage; form details stay in component memory until the visitor deliberately opens email or copies them. Do not collect credentials through this form.
 
 ## Structure
-- `/` — Home page (Figma-inspired brutalist design)
-- `/privacy` — Privacy Policy (bilingual EN/ES)
-- `/terms` — Terms of Service (bilingual EN/ES)
-- `/cookies` — Cookie Policy (bilingual EN/ES)
-- `/legal` — Legal Hub
-- `/status` — System Status
-- `/docs` — Documentation Hub
-- `/uta` — Universal Trust Adapter spec
-- `/atc` — Agent Trust Card spec
-- `/mcp` — MCP Vault Server docs
-- `/agents` — AI Agent Resources
 
-## Agent Files
-- `/robots.txt` — Crawler directives
-- `/llms.txt` — LLM-friendly summary
-- `/ai.txt` — Structured company data
-- `/agents.txt` — Agent endpoint discovery
-- `/sitemap.xml` — Sitemap
+- `src/app/page.tsx`: service content, bilingual UI and inquiry preparation.
+- `src/app/page.module.css`: responsive homepage styles.
+- `src/app/LegalPage.tsx`: shared legacy/legal renderer, compatible with both existing prop formats.
+- `public/`: actual static discovery assets. Root text copies are kept aligned.
+- `docs/COMMERCIAL-OPERATIONS.md`: qualification, quoting, handover and launch checks.
 
-## Tech
-- Next.js 16 + TypeScript
-- Tailwind CSS
-- Abril Fatface + Source Sans 3 + Courier Prime
-
-## Company
-AliceLabs LLC · Wyoming Filing #2025-001849256  
-30 N Gould St Ste R, Sheridan, WY 82801, USA  
-contact@alicelabs.site · +1 (307) 381-3329
-
-© 2026 AliceLabs LLC
+Historical HTML and compiled assets remain as references, outside the exported website. Product-specific UTA/ATC page content is unchanged. Existing legal text needs owner review before publishing any changed terms; this change does not invent new legal commitments.
