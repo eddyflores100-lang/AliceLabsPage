@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Solid blue rounded background -->
-  <rect width="64" height="64" rx="12" fill="#4252ff"/>
-  <!-- Heavy block A using path - chunky, fills most of canvas -->
-  <path d="M 32 8 L 50 56 L 41 56 L 37.5 46 L 26.5 46 L 23 56 L 14 56 Z M 30 38 L 34 38 L 32 30 Z" 
-        fill="#f5f0e8"/>
-</svg>
