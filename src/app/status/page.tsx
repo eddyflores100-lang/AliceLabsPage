@@ -1,10 +1,9 @@
 import LegalPage from '../LegalPage'
 
 export default function StatusPage() {
-  return <LegalPage title="System Status" tag="Operations · Status" pgNum="AliceLabs LLC · Real-time" sections={[
-    { heading: "All Systems Operational", body: ["All 7 live sites are operational and responding.", "Last check: September 2026"] },
-    { heading: "Live Sites", body: ["opensam.us — OPERATIONAL", "marketnow.site — OPERATIONAL", "alicelabs.energy — OPERATIONAL", "sg-turismo.com — OPERATIONAL", "equastore.com — OPERATIONAL", "angrycactus.site — OPERATIONAL", "floranova.life — OPERATIONAL"] },
-    { heading: "Infrastructure", body: ["GitHub: alicelabs-llc org — 21 public repos, all accessible", "Firebase Hosting: inversion-al project — OPERATIONAL", "Firebase Hosting: alicelabs-ads project — OPERATIONAL", "Docs: docs.alicelabs.site — OPERATIONAL"] },
-    { heading: "Build", body: ["Build Revision: v11.0 [STABLE]", "Cloud Sync: ACTIVE", "Status endpoint: https://status.alicelabs.site"] }
+  return <LegalPage title="Service status" tag="Operations · Information" pgNum="AliceLabs · Manual status information" intro="This page is not connected to a monitoring service and does not report live availability." sections={[
+    { heading: "Availability not verified", body: ["We do not publish uptime or operational guarantees from this static page. Product websites and integrations may have independent availability."] },
+    { heading: "Report a problem", body: ["Contact contact@alicelabs.site with the affected URL, the time of the issue and a description. Do not include passwords or private customer data."] },
+    { heading: "Project support", body: ["Support scope, response times and service commitments are defined in each project's agreement."] }
   ]} />
 }

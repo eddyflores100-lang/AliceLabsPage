@@ -7,3 +7,6 @@ dist/
 firebase.json
 .firebaserc
 .firebase/
+
+out/
+*.tsbuildinfo

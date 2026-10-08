@@ -1,36 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Toaster } from "@/components/ui/toaster";
+
 
 export const metadata: Metadata = {
-  title: "AliceLabs | Elite Engineering Hub",
-  description:
-    "AliceLabs provides the deterministic infrastructure for next-gen spatial automation. We deploy high-dimensional logic engines at the edge for critical fleet coordination.",
-  keywords: [
-    "AliceLabs",
-    "Elite Engineering Hub",
-    "spatial automation",
-    "edge computing",
-    "logic engines",
-    "fleet coordination",
-    "AI agents",
-    "Orchestrator v4",
-  ],
-  authors: [{ name: "AliceLabs Innovation Hub LLC" }],
-  openGraph: {
-    title: "AliceLabs | Elite Engineering Hub",
-    description:
-      "Orchestrating Autonomous Logic Chains. Deterministic infrastructure for next-gen spatial automation.",
-    url: "https://www.alicelabs.site/",
-    siteName: "AliceLabs",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "AliceLabs | Elite Engineering Hub",
-    description:
-      "Orchestrating Autonomous Logic Chains. Deterministic infrastructure for next-gen spatial automation.",
-  },
+  metadataBase:new URL('https://www.alicelabs.site'),
+  title:'AliceLabs | Desarrollo web y automatización para tu negocio',
+  description:'Webs para captar clientes, automatización de procesos y desarrollo de MVP. Define tu objetivo y recibe una propuesta con alcance, entregables y presupuesto.',
+  openGraph:{title:'AliceLabs | De una necesidad a un producto que funciona',description:'Desarrollo web, automatización y MVP con entregables claros.',url:'https://www.alicelabs.site',siteName:'AliceLabs',type:'website'},
 };
 
 export default function RootLayout({
@@ -39,10 +15,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es">
       <body className="antialiased bg-[#050510] text-white m-0 p-0">
         {children}
-        <Toaster />
       </body>
     </html>
   );
