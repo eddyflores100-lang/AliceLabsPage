@@ -1,6 +1,6 @@
 # AliceLabs LLC
 
-> Open-source infrastructure for AI agent trust, GovTech, legal AI, and security research. Wyoming-based. 100+ repositories, 21 public, 7 live sites.
+> Open-source infrastructure for AI agent trust, GovTech, legal AI, and security research. Wyoming-based. 140+ repositories, 75+ public, 23 live sites.
 
 ## About
 AliceLabs LLC is a Wyoming-filed company (Filing #2025-001849256) based at 30 N Gould St Ste R, Sheridan, WY 82801. We build open-source infrastructure for AI agents, government APIs, legal tech, and security research.
@@ -8,23 +8,55 @@ AliceLabs LLC is a Wyoming-filed company (Filing #2025-001849256) based at 30 N 
 ## Core Technologies
 - UTA (Universal Trust Adapter) v1.0 — translates between 8 trust credential formats
 - ATC (Agent Trust Card) v1.0 — Ed25519-signed trust cards for AI agents
+- Alethech — verifiable agent continuity protocol with Ed25519-signed memory and Merkle DAG
+- UTA Shield — provider-side firewall for MCP servers with PhishGuard threat intel
 - MCP Vault Server — zero-trust key management for AI agents
 - SAM.gov SDK — TypeScript SDK for federal contracting API
-- Agent Trust Pipeline — verifiable reputation and credential layer
+- VRFKYC — AML, sanctions, PEP and adverse media screening API
+- SlothPay — x402 payment gatekeeper for AI agents
 
-## Live Sites
+## Live Sites (23)
 - OpenSAM: https://opensam.us — Federal contract intelligence
 - MarketNow: https://marketnow.site — Trust infrastructure for AI agents
 - AliceLabs.Energy: https://alicelabs.energy — Energy platform
-- SG-Turismo: https://sg-turismo.com — Tourism platform
+- Alethech: https://alethech.alicelabs.site — Verifiable agent continuity protocol
+- Vigia: https://vigia.alicelabs.site — Gas well ML monitoring
+- LexIA: https://lexia.alicelabs.site — AI legal assistants LatAm
+- Nexus: https://nexus.alicelabs.site — Project showcase hub
+- ATF: https://atf.alicelabs.site — Auto Tax Flow, SRI Ecuador
+- Orbita: https://orbita.alicelabs.site — Property Content Engine, real estate
+- Emma Care Studio: https://emmacare.alicelabs.site — Virtual pet game for kids
+- StoreGenie AI: https://storegenie-ai.eddyflores100.workers.dev — ChatGPT for Shopify
+- AliceLabs Toolkit: https://alicelabs-toolkit.eddyflores100.workers.dev — Free Shopify merchant toolkit
+- Bernaudio: https://eddyflores100-lang.github.io/bernaudio — Professional audio measurement
+- OpenGravity: https://eddyflores100-lang.github.io/OpenGravity — Algorithmic company research oracle
+- Mermail Escrow: https://eddyflores100-lang.github.io/mermail-escrow-agent — P2P deal escrow via email
+- UTALabs: https://utalabs.tech — Fail-closed spend authorization for AI agents
+- UTA Shield: https://wall.utalabs.tech — MCP firewall + PhishGuard
+- Sloth: https://sloth.utalabs.tech — Overnight task handler with 1B brain
 - Equastore: https://equastore.com — Wellness store
+- Dropes: https://dropes.shop — Dropshipping storefront
 - Angry Cactus: https://angrycactus.site — Lifestyle brand
 - FloraNova: https://floranova.life — Botanical care
+- SG-Turismo: https://sg-turismo.com — Tourism platform
 
 ## Open Source
-- GitHub: https://github.com/alicelabs-llc
-- 21 public repositories (TypeScript, Python, PLpgSQL)
+- GitHub Org: https://github.com/alicelabs-llc
+- Personal: https://github.com/eddyflores100-lang
+- 75+ public repositories (TypeScript, Python, PLpgSQL, Rust)
 - MIT licensed
+
+## Notable Repositories
+- alethech: https://github.com/eddyflores100-lang/alethech — Verifiable agent continuity
+- universal-trust-adapter: https://github.com/alicelabs-llc/universal-trust-adapter — ATC/1.0 spec
+- uta-shield: https://github.com/eddyflores100-lang/uta-shield — MCP firewall
+- marketnow: https://github.com/eddyflores100-lang/marketnow — Trust layer
+- slothpay: https://github.com/eddyflores100-lang/slothpay — x402 payments
+- vrfkyc: https://github.com/eddyflores100-lang/vrfkyc — AML/sanctions API
+- mcp-suite: https://github.com/eddyflores100-lang/mcp-suite — 229 MCP servers
+- recall-mcp: https://github.com/eddyflores100-lang/recall-mcp — Long-term memory
+- context-pruner-mcp: https://github.com/eddyflores100-lang/context-pruner-mcp — Token saver
+- OpenSAM: https://github.com/eddyflores100-lang/OpenSAM — Federal contracts
 
 ## Contact
 - Email: contact@alicelabs.site
@@ -35,5 +67,6 @@ AliceLabs LLC is a Wyoming-filed company (Filing #2025-001849256) based at 30 N 
 - API Docs: https://docs.alicelabs.site
 - UTA Spec: https://github.com/alicelabs-llc/universal-trust-adapter
 - ATC Spec: https://github.com/alicelabs-llc/universal-trust-adapter
+- Alethech: https://github.com/eddyflores100-lang/alethech
 - MCP Vault: https://github.com/alicelabs-llc/mcp-vault-server
 - SAM.gov SDK: https://github.com/alicelabs-llc/samgov-sdk
