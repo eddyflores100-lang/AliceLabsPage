@@ -60,7 +60,7 @@ export default function CookiesPage() {
       {
         heading: "Contact",
         body: [
-          "7.1. Questions about this Cookie Policy? Contact: AliceLabs LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA. Email: contact@alicelabs.site. Phone: +1 (307) 381-3329."
+          "7.1. Questions about this Cookie Policy? Contact: AliceLabs LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA. Email: contacto@alicelabs.site. Phone: +1 (307) 381-3329."
         ]
       }
     ]}
