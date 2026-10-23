@@ -14,11 +14,11 @@ export default function PrivacyPage() {
       sectionsWord: "sections",
       ctaTitle: "Legal questions?",
       ctaSub: "Contact us for any legal inquiries. We respond within 5 business days.",
-      ctaBtn: "contact@alicelabs.site",
+      ctaBtn: "contacto@alicelabs.site",
       backHome: "← Back to home",
       sections: [
         { heading: "Information We Collect", body: [
-          "1.1. Personal Information You Provide Voluntarily: When you contact us via email at contact@alicelabs.site, by phone at +1 (307) 381-3329, or through any contact forms, we may collect your name, email address, phone number, company name, and the content of your communication.",
+          "1.1. Personal Information You Provide Voluntarily: When you contact us via email at contacto@alicelabs.site, by phone at +1 (307) 381-3329, or through any contact forms, we may collect your name, email address, phone number, company name, and the content of your communication.",
           "1.2. Information Collected Automatically: alicelabs.site does NOT use Google Analytics, Facebook Pixel, or any third-party tracking technology. We do NOT collect IP addresses for tracking. We do NOT use tracking cookies. Server logs (IP, user agent, timestamp) are for security only and purged after 30 days.",
           "1.3. Information from Our Open-Source Repositories: Our public GitHub repositories may collect information as part of normal Git operations. This is governed by GitHub's Privacy Policy, not this Policy.",
           "1.4. Information from Live Production Sites: Each of our seven live sites has its own privacy practices appropriate to its function. equastore.com collects payment and shipping information; opensam.us collects no personal data.",
@@ -48,10 +48,10 @@ export default function PrivacyPage() {
           "5.1. Email Correspondence: Retained 24 months after last interaction, then permanently deleted.",
           "5.2. Server Logs: Retained 30 days for security, then automatically purged.",
           "5.3. Project Data: Retained for the engagement plus 12 months, unless otherwise specified in contract.",
-          "5.4. Deletion Requests: Contact contact@alicelabs.site to request deletion. We process within 30 days."
+          "5.4. Deletion Requests: Contact contacto@alicelabs.site to request deletion. We process within 30 days."
         ]},
         { heading: "Your Privacy Rights (US State Laws)", body: [
-          "6.1. California (CCPA/CPRA): Right to know, delete, correct, and port personal information. We do not sell data, so opt-out is not applicable. Contact contact@alicelabs.site.",
+          "6.1. California (CCPA/CPRA): Right to know, delete, correct, and port personal information. We do not sell data, so opt-out is not applicable. Contact contacto@alicelabs.site.",
           "6.2. Wyoming: Right to request access and correction of personal information.",
           "6.3. Other US States: Virginia, Colorado, Connecticut, Utah residents have similar rights.",
           "6.4. Response Time: We respond within 30 days. Extensions up to 60 additional days with notice.",
@@ -76,7 +76,7 @@ export default function PrivacyPage() {
         ]},
         { heading: "Contact Information", body: [
           "11.1. For questions about this Privacy Policy: AliceLabs LLC, Attn: Privacy, 30 N Gould St Ste R, Sheridan, WY 82801, USA.",
-          "11.2. Email: contact@alicelabs.site. Phone: +1 (307) 381-3329.",
+          "11.2. Email: contacto@alicelabs.site. Phone: +1 (307) 381-3329.",
           "11.3. If unsatisfied with our response, you may file a complaint with the Wyoming Attorney General or the FTC."
         ]}
       ]
@@ -93,11 +93,11 @@ export default function PrivacyPage() {
       sectionsWord: "secciones",
       ctaTitle: "¿Preguntas legales?",
       ctaSub: "Contáctanos para cualquier consulta legal. Respondemos en 5 días hábiles.",
-      ctaBtn: "contact@alicelabs.site",
+      ctaBtn: "contacto@alicelabs.site",
       backHome: "← Volver al inicio",
       sections: [
         { heading: "Información que Recopilamos", body: [
-          "1.1. Información Personal Proporcionada Voluntariamente: Cuando nos contactas vía email a contact@alicelabs.site, por teléfono al +1 (307) 381-3329, o mediante formularios, podemos recopilar tu nombre, email, teléfono, empresa y el contenido de tu comunicación.",
+          "1.1. Información Personal Proporcionada Voluntariamente: Cuando nos contactas vía email a contacto@alicelabs.site, por teléfono al +1 (307) 381-3329, o mediante formularios, podemos recopilar tu nombre, email, teléfono, empresa y el contenido de tu comunicación.",
           "1.2. Información Recopilada Automáticamente: alicelabs.site NO usa Google Analytics, Facebook Pixel ni tecnología de seguimiento de terceros. NO recopilamos direcciones IP para seguimiento. NO usamos cookies de seguimiento. Los logs del servidor (IP, user agent, timestamp) son solo para seguridad y se eliminan después de 30 días.",
           "1.3. Información de Repositorios Open-Source: Nuestros repositorios públicos en GitHub pueden recopilar información como parte de las operaciones normales de Git. Esto se rige por la Política de Privacidad de GitHub, no por esta Política.",
           "1.4. Información de Sitios en Producción: Cada uno de nuestros siete sitios en vivo tiene sus propias prácticas de privacidad. equastore.com recopila información de pago y envío; opensam.us no recopila datos personales.",
@@ -127,10 +127,10 @@ export default function PrivacyPage() {
           "5.1. Correspondencia por Email: Conservada 24 meses después de la última interacción, luego eliminada permanentemente.",
           "5.2. Logs del Servidor: Conservados 30 días por seguridad, luego purgados automáticamente.",
           "5.3. Datos de Proyectos: Conservados por la duración del contrato más 12 meses, salvo especificación contraria.",
-          "5.4. Solicitudes de Eliminación: Contacta contact@alicelabs.site para solicitar eliminación. Procesamos en 30 días."
+          "5.4. Solicitudes de Eliminación: Contacta contacto@alicelabs.site para solicitar eliminación. Procesamos en 30 días."
         ]},
         { heading: "Tus Derechos de Privacidad (Leyes Estatales EE.UU.)", body: [
-          "6.1. California (CCPA/CPRA): Derecho a saber, eliminar, corregir y portar información personal. No vendemos datos, por lo que la exclusión voluntaria no aplica. Contacta contact@alicelabs.site.",
+          "6.1. California (CCPA/CPRA): Derecho a saber, eliminar, corregir y portar información personal. No vendemos datos, por lo que la exclusión voluntaria no aplica. Contacta contacto@alicelabs.site.",
           "6.2. Wyoming: Derecho a solicitar acceso y corrección de información personal.",
           "6.3. Otros Estados EE.UU.: Residentes de Virginia, Colorado, Connecticut, Utah tienen derechos similares.",
           "6.4. Tiempo de Respuesta: Respondemos en 30 días. Extensiones hasta 60 días adicionales con notificación.",
@@ -155,7 +155,7 @@ export default function PrivacyPage() {
         ]},
         { heading: "Información de Contacto", body: [
           "11.1. Para preguntas sobre esta Política: AliceLabs LLC, Attn: Privacy, 30 N Gould St Ste R, Sheridan, WY 82801, USA.",
-          "11.2. Email: contact@alicelabs.site. Teléfono: +1 (307) 381-3329.",
+          "11.2. Email: contacto@alicelabs.site. Teléfono: +1 (307) 381-3329.",
           "11.3. Si no estás satisfecho con nuestra respuesta, puedes presentar una queja ante el Fiscal General de Wyoming o la FTC."
         ]}
       ]
