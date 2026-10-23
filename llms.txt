@@ -1,6 +1,6 @@
 # AliceLabs LLC
 
-> Open-source infrastructure for AI agent trust, GovTech, legal AI, and security research. Wyoming-based. 140+ repositories, 75+ public, 23 live sites.
+> Open-source infrastructure for AI agent trust, GovTech, legal AI, and security research. Wyoming-based. 140 public repositories, 19 live sites.
 
 ## About
 AliceLabs LLC is a Wyoming-filed company (Filing #2025-001849256) based at 30 N Gould St Ste R, Sheridan, WY 82801. We build open-source infrastructure for AI agents, government APIs, legal tech, and security research.
@@ -43,7 +43,7 @@ AliceLabs LLC is a Wyoming-filed company (Filing #2025-001849256) based at 30 N 
 ## Open Source
 - GitHub Org: https://github.com/alicelabs-llc
 - Personal: https://github.com/eddyflores100-lang
-- 75+ public repositories (TypeScript, Python, PLpgSQL, Rust)
+- 140 public repositories (TypeScript, Python, PLpgSQL, Rust)
 - MIT licensed
 
 ## Notable Repositories
