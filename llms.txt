@@ -3,7 +3,7 @@
 > Open-source infrastructure for AI agent trust, GovTech, legal AI, and security research. Wyoming-based. 140 public repositories, 19 live sites.
 
 ## About
-AliceLabs LLC is a Wyoming-filed company (Filing #2025-001849256) based at 30 N Gould St Ste R, Sheridan, WY 82801. We build open-source infrastructure for AI agents, government APIs, legal tech, and security research.
+AliceLabs LLC is a Wyoming LLC based in Sheridan, Wyoming, USA. We build open-source infrastructure for AI agents, government APIs, legal tech, and security research.
 
 ## Core Technologies
 - UTA (Universal Trust Adapter) v1.0 — translates between 8 trust credential formats
@@ -60,7 +60,6 @@ AliceLabs LLC is a Wyoming-filed company (Filing #2025-001849256) based at 30 N 
 
 ## Contact
 - Email: contact@alicelabs.site
-- Phone: +1 (307) 381-3329
 - Address: 30 N Gould St Ste R, Sheridan, WY 82801, USA
 
 ## Documentation
