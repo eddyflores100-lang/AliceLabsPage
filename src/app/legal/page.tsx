@@ -21,11 +21,10 @@ export default function LegalPageRoute() {
         body: [
           "Company Name: AliceLabs LLC (Limited Liability Company)",
           "Entity Type: Wyoming LLC",
-          "Filing Number: #2025-001849256",
           "Filing Date: 2025",
           "Registered Agent: Wyoming Registered Agent Service",
           "Registered Address: 30 N Gould St Ste R, Sheridan, WY 82801, USA",
-          "Principal Contact: contact@alicelabs.site",
+          "Principal Contact: contacto@alicelabs.site",
           "Phone (USA): +1 (307) 381-3329",
           "Phone (Ecuador): +593 958 917 053",
           "Governing Law: State of Wyoming, United States of America"
@@ -64,7 +63,7 @@ export default function LegalPageRoute() {
       {
         heading: "DMCA and Takedown Policy",
         body: [
-          "AliceLabs LLC respects the intellectual property rights of others. If you believe that content on our sites infringes your copyright, please send a DMCA notice to: AliceLabs LLC, Attn: DMCA, 30 N Gould St Ste R, Sheridan, WY 82801, USA. Email: contact@alicelabs.site.",
+          "AliceLabs LLC respects the intellectual property rights of others. If you believe that content on our sites infringes your copyright, please send a DMCA notice to: AliceLabs LLC, Attn: DMCA, 30 N Gould St Ste R, Sheridan, WY 82801, USA. Email: contacto@alicelabs.site.",
           "Your notice must include: (a) Identification of the copyrighted work; (b) URL of the allegedly infringing material; (c) Your contact information; (d) A statement of good-faith belief that the use is unauthorized; (e) A statement under penalty of perjury that you are authorized to act on behalf of the copyright owner; (f) Your physical or electronic signature.",
           "We will process DMCA notices within 10 business days of receipt."
         ]
@@ -72,10 +71,10 @@ export default function LegalPageRoute() {
       {
         heading: "Contact for Legal Matters",
         body: [
-          "For all legal inquiries: AliceLabs LLC, Attn: Legal, 30 N Gould St Ste R, Sheridan, WY 82801, USA. Email: contact@alicelabs.site. Phone: +1 (307) 381-3329.",
-          "For privacy concerns: contact@alicelabs.site with 'Privacy' in the subject line.",
-          "For security reports: contact@alicelabs.site with 'Security' in the subject line. We acknowledge security reports within 24 hours.",
-          "For DMCA notices: contact@alicelabs.site with 'DMCA' in the subject line."
+          "For all legal inquiries: AliceLabs LLC, Attn: Legal, 30 N Gould St Ste R, Sheridan, WY 82801, USA. Email: contacto@alicelabs.site. Phone: +1 (307) 381-3329.",
+          "For privacy concerns: contacto@alicelabs.site with 'Privacy' in the subject line.",
+          "For security reports: contacto@alicelabs.site with 'Security' in the subject line. We acknowledge security reports within 24 hours.",
+          "For DMCA notices: contacto@alicelabs.site with 'DMCA' in the subject line."
         ]
       }
     ]}
