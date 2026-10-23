@@ -5,7 +5,7 @@ export default function PrivacyPage() {
     en={{
       title: "Privacy Policy",
       tag: "Legal · Privacy",
-      pgNum: "AliceLabs LLC · Effective: September 2026",
+      pgNum: "AliceLabs LLC · Effective: September 2026 · Updated: October 24, 2026",
       intro: "This Privacy Policy describes how AliceLabs LLC collects, uses, discloses, and protects personal information. We comply with US federal and state privacy laws including CCPA, CPRA, and Wyoming regulations.",
       tocLabel: "Contents",
       tocTitle1: "Table of",
