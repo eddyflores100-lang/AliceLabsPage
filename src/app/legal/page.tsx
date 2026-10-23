@@ -4,7 +4,7 @@ export default function LegalPageRoute() {
   return <LegalPage
     title="Legal Hub"
     tag="Legal · Index"
-    pgNum="AliceLabs LLC · September 2026"
+    pgNum="AliceLabs LLC · September 2026 · Updated: October 24, 2026"
     intro="This page serves as the central index for all legal documents, policies, and corporate information for AliceLabs LLC. All documents are effective as of September 2026 and are reviewed quarterly."
     sections={[
       {
