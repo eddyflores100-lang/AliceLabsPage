@@ -109,7 +109,7 @@ export default function TermsPage() {
       {
         heading: "Contact Information",
         body: [
-          "12.1. For questions about these Terms, please contact: AliceLabs LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA. Email: contact@alicelabs.site. Phone: +1 (307) 381-3329.",
+          "12.1. For questions about these Terms, please contact: AliceLabs LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA. Email: contacto@alicelabs.site. Phone: +1 (307) 381-3329.",
           "12.2. For legal notices, please send to the address above with 'Attn: Legal' on the envelope or subject line.",
           "12.3. For DMCA takedown notices, please send to the same address with 'DMCA Notice' in the subject line. Include the allegedly infringing material URL, your contact information, and a good-faith belief statement as required by 17 U.S.C. § 512."
         ]
