@@ -15,7 +15,7 @@ AliceLabs LLC is a Wyoming LLC based in Sheridan, Wyoming, USA. We build open-so
 - VRFKYC — AML, sanctions, PEP and adverse media screening API
 - SlothPay — x402 payment gatekeeper for AI agents
 
-## Live Sites (23)
+## Live Sites (24)
 - OpenSAM: https://opensam.us — Federal contract intelligence
 - MarketNow: https://marketnow.site — Trust infrastructure for AI agents
 - AliceLabs.Energy: https://alicelabs.energy — Energy platform
@@ -34,6 +34,7 @@ AliceLabs LLC is a Wyoming LLC based in Sheridan, Wyoming, USA. We build open-so
 - UTALabs: https://utalabs.tech — Fail-closed spend authorization for AI agents
 - UTA Shield: https://wall.utalabs.tech — MCP firewall + PhishGuard
 - Sloth: https://sloth.utalabs.tech — Overnight task handler with 1B brain
+- VRFKYC: https://vrfkyc.alicelabs.site — Global AML, sanctions, PEP screening
 - Equastore: https://equastore.com — Wellness store
 - Dropes: https://dropes.shop — Dropshipping storefront
 - Angry Cactus: https://angrycactus.site — Lifestyle brand
