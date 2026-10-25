@@ -15,7 +15,7 @@ AliceLabs LLC is a Wyoming LLC based in Sheridan, Wyoming, USA. We build open-so
 - VRFKYC — AML, sanctions, PEP and adverse media screening API
 - SlothPay — x402 payment gatekeeper for AI agents
 
-## Live Sites (24)
+## Live Sites (25)
 - OpenSAM: https://opensam.us — Federal contract intelligence
 - MarketNow: https://marketnow.site — Trust infrastructure for AI agents
 - AliceLabs.Energy: https://alicelabs.energy — Energy platform
@@ -40,6 +40,7 @@ AliceLabs LLC is a Wyoming LLC based in Sheridan, Wyoming, USA. We build open-so
 - Angry Cactus: https://angrycactus.site — Lifestyle brand
 - FloraNova: https://floranova.life — Botanical care
 - SG-Turismo: https://sg-turismo.com — Tourism platform
+- TechDigital Prospect: https://techdigital.site — B2B prospect intelligence and scoring
 
 ## Open Source
 - GitHub Org: https://github.com/alicelabs-llc
