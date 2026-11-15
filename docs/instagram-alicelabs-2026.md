@@ -9,7 +9,7 @@ Promocionar **AliceLabs**, su oferta de software, sitios web, agentes de IA y au
 3. Reel DfqMl9eyXLG: campaña de reconocimiento Meta Ads con 15 USD durante 24 horas. No asumir alcance de 90.000 ni invertir sin aprobación.
 4. Carrusel DffNLf8DgbS: estrategia orgánica con hooks, retención, compartidos y secuencia de 5-10 publicaciones. No garantiza 100.000 impresiones.
 5. Carrusel DfXbddnGoLk: portada afirma 453 USD/día con Claude y YouTube; cinco slides de video no fueron analizados. No repetir como dato verificado.
-6. Carrusel DfINjXNlX3V: cinco imágenes identificadas, contenido no accesible en el conector. Pendiente; no inventar su contenido.
+6. Carrusel DfINjXNlX3V: **verificado directamente desde Instagram el 14-11-2026**. Autor @digitalpractico, publicación del 30-10-2026. Son cinco imágenes. El texto público describe **cuatro sistemas de IA para estructurar contenido**, con objetivos de crear inicios que llamen la atención, diseñar guiones con valor hasta el final y conectar mejor con la audiencia; ofrece compartir el sistema a quien comente «BIO». El texto no enumera cuáles son los cuatro sistemas, así que no se atribuyen herramientas específicas sin ver todas las imágenes. Se recuperaron los cinco archivos de imagen en una sesión remota, pero su texto interno aún no se ha verificado. Aplicación para AliceLabs: flujos de generación de hooks, guiones, revisión editorial, calendario y medición; no prometer resultados.
 
 ## Posicionamiento
 - Audiencia: pequeñas empresas, agencias y comercios en EE. UU. y Ecuador.
@@ -42,4 +42,4 @@ Promocionar **AliceLabs**, su oferta de software, sitios web, agentes de IA y au
 - Motor de ranking del workbench: evaluar oportunidades comerciales; sin envío automático.
 
 ## Estado
-Documento de planificación en rama aislada. No se ha publicado contenido, conectado Instagram, activado anuncios ni desplegado código.
+Documento de planificación en rama aislada; **sexta publicación actualizada con evidencia directa y pie de foto recuperado**. Quinta publicación sigue parcialmente inaccesible. No se ha publicado contenido, conectado Instagram, activado anuncios ni desplegado código.
