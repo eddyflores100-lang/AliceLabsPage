@@ -33,6 +33,8 @@ AliceLabs LLC is a Wyoming software company built by Edison Flores from Quito, E
 
 ## Commercial validation plan
 
+[Detailed commercial validation plan](COMMERCIAL_PLAN_UTA_SHIELD_2026.md), including pilot scope, proposed unit economics and 90-day milestones.
+
 1. Agree a narrow paid pilot with a defined operator and acceptance criteria.
 2. Record deployment effort, support cost and customer feedback.
 3. Establish which customers choose ongoing support.
